@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AzerothCore Flag Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" width="173" height="114">
+        <h1>AzerothCore Flag Checker</h1>
+        
+        <!-- Dropdown to select flag category -->
+        <label for="flagCategory">Choose Flag Category:</label>
+        <select id="flagCategory">
+            <option value="npcflag">npcflag</option>
+            <option value="unit_flags">unit_flags</option>
+            <option value="unit_flags2">unit_flags2</option>
+            <option value="dynamicflags">dynamicflags</option>
+            <option value="type_flags">type_flags</option>
+            <option value="mechanic_immune_mask">mechanic_immune_mask</option>
+            <option value="flags_extra">flags_extra</option>
+            <option value="spell_school_mask">spell_school_mask</option>
+        </select>
+        
+        <br>
+        <!-- Input to enter the bitwise flag -->
+        <label for="flagInput">Enter a bitmask value:</label>
+        <input type="number" id="flagInput" placeholder="Enter a number" min="0" />
+        <button onclick="checkFlags()">Check Flags</button>
+
+        <!-- Output from script.js -->
+        <h4 id="inputValueDisplay"></h4>
+        <ul id="flagList"></ul>
+    </div>
+
+    <script src="flags.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

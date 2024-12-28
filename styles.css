@@ -1,0 +1,71 @@
+/* Style the body and general layout */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    margin: 0;
+}
+
+h1, label, h4 {
+    color: whitesmoke
+}
+
+.container {
+    text-align: center;
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+input, select {
+    background-color: #3f3f3f;
+    color: #8b8b8b;
+    padding: 10px;
+    width: 75%;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #575757;
+}
+
+/* Style for buttons */
+button {
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #d60202;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b60202;
+}
+
+/* Style the result list and other elements */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    text-align: left;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+/* Style the select dropdown specifically */
+#flagCategory {
+    color: whitesmoke;
+    font-size: 16px; /* Font size */
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding for better spacing */
+}

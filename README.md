@@ -2,7 +2,7 @@
 
 **AzerothCore Flag Checker** is a tool for easily checking various flags used in **AzerothCore**.
 
-# [Live Demo](http://www.azerothcore.org/flag-checker/)
+## [Live Demo](http://www.azerothcore.org/flag-checker/)
 
 ![AzerothCore Flag Checker](flagchecker.png)
 

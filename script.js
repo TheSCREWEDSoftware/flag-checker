@@ -38,6 +38,9 @@ function checkFlags() {
         const removeFlagString = document.createElement('li');
         removeFlagString.textContent = `\`${selectedCategory}\`=\`${selectedCategory}\`${removeFlag}`;
         combinedList.appendChild(removeFlagString);
+    } else if (flagsIncluded.length == 0) {
+        alert('Value must be greater than 0!');
+        return;
     } else {
         const listItem = document.createElement('li');
         listItem.textContent = 'No flags found';

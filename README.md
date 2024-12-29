@@ -21,6 +21,7 @@ Currently supports
 - racemask
 - classmask
 - dispelmask
+- spellattr0-7
 
 ## License
 

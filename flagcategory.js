@@ -21,6 +21,7 @@ const flagCategories = {
         { name: "unit_flags", value: "unit_flags" },
         { name: "unit_flags2", value: "unit_flags2" },
         { name: "type_flags", value: "type_flags" },
+        { name: "flags_extra", value: "flags_extra" },
         { name: "unit_dynflags", value: "unit_dynflag" },
         { name: "mechanic_immune_mask", value: "mechanic_immune_mask" },
         { name: "spell_school_immune_mask", value: "spellschoolmask" },

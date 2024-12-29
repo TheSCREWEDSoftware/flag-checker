@@ -21,7 +21,8 @@ Currently supports
 - racemask
 - classmask
 - dispelmask
-- spellattr0-7
+- SpellCustomAttr
+- SpellAttr0-7
 - GameObjectFlags
 - GameObjectDynLowFlags
 - UnitDynFlags

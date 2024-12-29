@@ -23,6 +23,9 @@ Currently supports
 - DispelMask
 - SpellCustomAttr
 - SpellAttr0-7
+- ProcFlag
+- ProcEx
+- ProcSpellPhase
 - GameObjectFlags
 - GameObjectDynLowFlags
 - UnitDynFlags

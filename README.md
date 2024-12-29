@@ -16,8 +16,9 @@ Currently supports
 - dynamicflags
 - type_flags
 - mechanic_immune_mask
+- spell_school_immune_mask
 - flags_extra
-- spell_school_mask
+- racemask
 
 ## License
 

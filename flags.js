@@ -200,4 +200,27 @@ const flags = {
         { bit: 1073741824, name: "CREATURE_FLAG_EXTRA_IMMUNITY_KNOCKBACK" },
         { bit: 2147483648, name: "CREATURE_FLAG_EXTRA_HARD_RESET" }
     ],
+    racemask: [
+        { bit: 1, name: "RACE_HUMAN" },
+        { bit: 2, name: "RACE_ORC" },
+        { bit: 4, name: "RACE_DWARF" },
+        { bit: 8, name: "RACE_NIGHTELF" },
+        { bit: 16, name: "RACE_UNDEAD_PLAYER" },
+        { bit: 32, name: "RACE_TAUREN" },
+        { bit: 64, name: "RACE_GNOME" },
+        { bit: 128, name: "RACE_TROLL" },
+        { bit: 256, name: "RACE_GOBLIN" },
+        { bit: 512, name: "RACE_BLOODELF" },
+        { bit: 1024, name: "RACE_DRAENEI" },
+        { bit: 2048, name: "RACE_FEL_ORC" },
+        { bit: 4096, name: "RACE_NAGA" },
+        { bit: 8192, name: "RACE_BROKEN" },
+        { bit: 16384, name: "RACE_SKELETON" },
+        { bit: 32768, name: "RACE_VRYKUL" },
+        { bit: 65536, name: "RACE_TUSKARR" },
+        { bit: 131072, name: "RACE_FOREST_TROLL" },
+        { bit: 262144, name: "RACE_TAUNKA" },
+        { bit: 524288, name: "RACE_NORTHREND_SKELETON" },
+        { bit: 1048576, name: "RACE_ICE_TROLL" }
+    ],
 };

@@ -46,6 +46,11 @@ function checkFlags() {
             flagList.appendChild(listItem);
         });
 
+        document.getElementById('inputValueDisplay').scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+
         // Create the list of flags in the (flag1 | flag2 | flag3 | flag4) format
         const flagNames = flagsIncluded.map(flag => flag.bit);
         const addFlag = `|${flagNames.join('|')}`;

@@ -20,6 +20,7 @@ Currently supports
 - flags_extra
 - racemask
 - classmask
+- dispelmask
 
 ## License
 

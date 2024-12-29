@@ -235,5 +235,18 @@ const flags = {
         { bit: 256, name: "CLASS_WARLOCK" },
         { bit: 512, name: "CLASS_UNK" },
         { bit: 1024, name: "CLASS_DRUID" }
+    ],
+    dispelmask: [
+        { bit: 1, name: "DISPEL_MAGIC" },
+        { bit: 2, name: "DISPEL_CURSE" },
+        { bit: 4, name: "DISPEL_DISEASE" },
+        { bit: 8, name: "DISPEL_POISON" },
+        { bit: 16, name: "DISPEL_STEALTH" },
+        { bit: 32, name: "DISPEL_INVISIBILITY" },
+        { bit: 64, name: "DISPEL_ALL" },
+        { bit: 128, name: "DISPEL_SPE_NPC_ONLY" },
+        { bit: 256, name: "DISPEL_ENRAGE" },
+        { bit: 512, name: "DISPEL_ZG_TICKET" },
+        { bit: 1024, name: "DESPEL_OLD_UNUSED" }
     ]
 };

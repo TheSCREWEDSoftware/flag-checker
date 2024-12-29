@@ -223,4 +223,17 @@ const flags = {
         { bit: 524288, name: "RACE_NORTHREND_SKELETON" },
         { bit: 1048576, name: "RACE_ICE_TROLL" }
     ],
+    classmask: [
+        { bit: 1, name: "CLASS_WARRIOR" },
+        { bit: 2, name: "CLASS_PALADIN" },
+        { bit: 4, name: "CLASS_HUNTER" },
+        { bit: 8, name: "CLASS_ROGUE" },
+        { bit: 16, name: "CLASS_PRIEST" },
+        { bit: 32, name: "CLASS_DEATH_KNIGHT" },
+        { bit: 64, name: "CLASS_SHAMAN" },
+        { bit: 128, name: "CLASS_MAGE" },
+        { bit: 256, name: "CLASS_WARLOCK" },
+        { bit: 512, name: "CLASS_UNK" },
+        { bit: 1024, name: "CLASS_DRUID" }
+    ]
 };

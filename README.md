@@ -19,6 +19,7 @@ Currently supports
 - spell_school_immune_mask
 - flags_extra
 - racemask
+- classmask
 
 ## License
 

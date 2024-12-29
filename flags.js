@@ -79,7 +79,7 @@ const flags = {
         { bit: 131072, name: "UNIT_FLAG2_PLAY_DEATH_ANIM" },
         { bit: 262144, name: "UNIT_FLAG2_ALLOW_CHEAT_SPELLS" }
     ],
-    dynamicflags: [
+    unit_dynflag: [
         { bit: 0, name: "UNIT_DYNFLAG_NONE" },
         { bit: 1, name: "UNIT_DYNFLAG_LOOTABLE" },
         { bit: 2, name: "UNIT_DYNFLAG_TRACK_UNIT" },
@@ -615,6 +615,17 @@ const flags = {
         { bit: 2, name: "PROC_SPELL_PHASE_HIT" },
         { bit: 4, name: "PROC_SPELL_PHASE_FINISH" }        
     ],
+    spellstackrules: [
+        { bit: 0, name: "SPELL_GROUP_STACK_RULE_DEFAULT" },
+        { bit: 1, name: "SPELL_GROUP_STACK_RULE_EXCLUSIVE" },
+        { bit: 2, name: "SPELL_GROUP_STACK_FLAG_NOT_SAME_CASTER" },
+        { bit: 4, name: "SPELL_GROUP_STACK_FLAG_FLAGGED" },
+        { bit: 8, name: "SPELL_GROUP_STACK_FLAG_NEVER_STACK" },
+        { bit: 16, name: "SPELL_GROUP_STACK_FLAG_EFFECT_EXCLUSIVE" },
+        // { bit: 32, name: "SPELL_GROUP_STACK_FLAG_MAX" },
+        { bit: 256, name: "SPELL_GROUP_STACK_FLAG_FORCED_STRONGEST (internal use)" },
+        { bit: 512, name: "SPELL_GROUP_STACK_FLAG_FORCED_WEAKEST (internal use)" }               
+    ],
     gameobjectflags: [
         { bit: 1, name: "GO_FLAG_IN_USE" },
         { bit: 2, name: "GO_FLAG_LOCKED" },
@@ -632,16 +643,5 @@ const flags = {
         { bit: 4, name: "GO_DYNFLAG_LO_NO_INTERACT" },
         { bit: 8, name: "GO_DYNFLAG_LO_SPARKLE" },
         { bit: 16, name: "GO_DYNFLAG_LO_STOPPED" }
-    ],
-    unitdynflags: [
-        { bit: 0, name: "UNIT_DYNFLAG_NONE" },
-        { bit: 1, name: "UNIT_DYNFLAG_LOOTABLE" },
-        { bit: 2, name: "UNIT_DYNFLAG_TRACK_UNIT" },
-        { bit: 4, name: "UNIT_DYNFLAG_TAPPED" },
-        { bit: 8, name: "UNIT_DYNFLAG_TAPPED_BY_PLAYER" },
-        { bit: 16, name: "UNIT_DYNFLAG_SPECIALINFO" },
-        { bit: 32, name: "UNIT_DYNFLAG_DEAD" },
-        { bit: 64, name: "UNIT_DYNFLAG_REFER_A_FRIEND" },
-        { bit: 128, name: "UNIT_DYNFLAG_TAPPED_BY_ALL_THREAT_LIST" }
     ],
 };

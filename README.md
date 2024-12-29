@@ -26,6 +26,7 @@ Currently supports
 - ProcFlag
 - ProcEx
 - ProcSpellPhase
+- SpellStackRules
 - GameObjectFlags
 - GameObjectDynLowFlags
 - UnitDynFlags

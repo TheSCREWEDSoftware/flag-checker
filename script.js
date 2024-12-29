@@ -1,5 +1,25 @@
+function updateFlagOptions() {
+    const mainCategory = document.getElementById("mainCategory").value;
+    const flagDropdown = document.getElementById("flagOptions");
+
+    flagDropdown.innerHTML = '';
+
+    const options = flagCategories[mainCategory];
+    
+    options.forEach(option => {
+        const opt = document.createElement("option");
+        opt.value = option.value;
+        opt.textContent = option.name;
+        flagDropdown.appendChild(opt);
+    });
+}
+
+window.onload = function() {
+    updateFlagOptions();
+};
+
 function checkFlags() {
-    const selectedCategory = document.getElementById('flagCategory').value;
+    const selectedCategory = document.getElementById('flagOptions').value;
     const selectedFlags = flags[selectedCategory];
     const inputFlag = parseInt(document.getElementById('flagInput').value);
 

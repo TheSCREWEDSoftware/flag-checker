@@ -12,35 +12,20 @@
         <img src="logo.png" width="173" height="114">
         <h1>AzerothCore Flag Checker</h1>
 
-        <!-- Dropdown to select flag category -->
-        <label for="flagCategory">Choose Flag Category:</label>
-        <select id="flagCategory">
-            <option value="npcflag">npcflag</option>
-            <option value="unit_flags">unit_flags</option>
-            <option value="unit_flags2">unit_flags2</option>
-            <option value="dynamicflags">dynamicflags</option>
-            <option value="type_flags">type_flags</option>
-            <option value="mechanic_immune_mask">mechanic_immune_mask</option>
-            <option value="flags_extra">flags_extra</option>
-            <option value="spellschoolmask">SpellSchoolMask</option>
-            <option value="racemask">RaceMask</option>
-            <option value="classmask">ClassMask</option>
-            <option value="dispelmask">dispelmask</option>
-            <option value="spellcustomattr">SpellCustomAttr</option>
-            <option value="spellattr0">SpellAttr0</option>
-            <option value="spellattr1">SpellAttr1</option>
-            <option value="spellattr2">SpellAttr2</option>
-            <option value="spellattr3">SpellAttr3</option>
-            <option value="spellattr4">SpellAttr4</option>
-            <option value="spellattr5">SpellAttr5</option>
-            <option value="spellattr6">SpellAttr6</option>
-            <option value="spellattr7">SpellAttr7</option>
-            <option value="procflag">ProcFlag</option>
-            <option value="procex">ProcEx</option>
-            <option value="procspellphase">ProcSpellPhase</option>
-            <option value="gameobjectflags">GameObjectFlags</option>
-            <option value="gameobjectdynamiclowflags">GameObjectDynamicLowFlags</option>
-            <option value="unitdynflags">UnitDynFlags</option>
+        <!-- Dropdown to select main category -->
+        <label for="mainCategory">Choose Category:</label>
+        <select id="mainCategory" onchange="updateFlagOptions()">
+            <option value="unit">Unit</option>
+            <option value="gameobject">GameObject</option>
+            <option value="spell">Spell</option>
+            <!--<option value="other">Other</option>-->
+        </select>
+
+        <br>
+        <!-- Dropdown to select specific flag category -->
+        <label for="flagOptions">Choose a Specific Flag:</label>
+        <select id="flagOptions">
+            <!-- Options will be dynamically populated based on the main category selection -->
         </select>
 
         <br>
@@ -55,6 +40,8 @@
         <ul id="combinedList"></ul>
     </div>
 
+    <!-- Load JS scripts -->
+    <script src="flagcategory.js"></script>
     <script src="flags.js"></script>
     <script src="script.js"></script>
 </body>

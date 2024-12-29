@@ -157,7 +157,7 @@ const flags = {
         { bit: 536870912, name: "MECHANIC_SAPPED" },
         { bit: 1073741824, name: "MECHANIC_ENRAGED" }
     ],
-    spell_school_immune_mask: [
+    spellschoolmask: [
         { bit: 1, name: "SPELL_SCHOOL_MASK_NORMAL" },
         { bit: 2, name: "SPELL_SCHOOL_MASK_HOLY" },
         { bit: 4, name: "SPELL_SCHOOL_MASK_FIRE" },

@@ -16,11 +16,11 @@ Currently supports
 - dynamicflags
 - type_flags
 - mechanic_immune_mask
-- spell_school_immune_mask
 - flags_extra
-- racemask
-- classmask
-- dispelmask
+- SpellSchoolMask
+- RaceMask
+- RaceMask
+- DispelMask
 - SpellCustomAttr
 - SpellAttr0-7
 - GameObjectFlags

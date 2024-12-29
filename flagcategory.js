@@ -1,4 +1,20 @@
 const flagCategories = {
+    unit: [
+        { name: "npcflag", value: "npcflag" },
+        { name: "unit_flags", value: "unit_flags" },
+        { name: "unit_flags2", value: "unit_flags2" },
+        { name: "type_flags", value: "type_flags" },
+        { name: "flags_extra", value: "flags_extra" },
+        { name: "unit_dynflags", value: "unit_dynflag" },
+        { name: "mechanic_immune_mask", value: "mechanic_immune_mask" },
+        { name: "spell_school_immune_mask", value: "spellschoolmask" },
+        { name: "racemask", value: "racemask" },
+        { name: "classmask", value: "classmask" },
+    ],
+    gameobject: [
+        { name: "GameObjectFlags", value: "gameobjectflags" },
+        { name: "GameObjectDynamicLowFlags", value: "gameobjectdynamiclowflags" }
+    ],
     spell: [
         { name: "SpellAttr0", value: "spellattr0" },
         { name: "SpellAttr1", value: "spellattr1" },
@@ -16,22 +32,6 @@ const flagCategories = {
         { name: "ProcSpellPhase", value: "procspellphase" },
         { name: "SpellStackRules", value: "spellstackrules" },
     ],
-    unit: [
-        { name: "npcflag", value: "npcflag" },
-        { name: "unit_flags", value: "unit_flags" },
-        { name: "unit_flags2", value: "unit_flags2" },
-        { name: "type_flags", value: "type_flags" },
-        { name: "flags_extra", value: "flags_extra" },
-        { name: "unit_dynflags", value: "unit_dynflag" },
-        { name: "mechanic_immune_mask", value: "mechanic_immune_mask" },
-        { name: "spell_school_immune_mask", value: "spellschoolmask" },
-        { name: "racemask", value: "racemask" },
-        { name: "classmask", value: "classmask" },
-    ],
-    gameobject: [
-        { name: "GameObjectFlags", value: "gameobjectflags" },
-        { name: "GameObjectDynamicLowFlags", value: "gameobjectdynamiclowflags" }
-    ],
     quest: [
         { name: "QuestFlags", value: "questflags" },
         { name: "SpecialFlags", value: "specialflags" }
@@ -40,6 +40,7 @@ const flagCategories = {
         { name: "ItemFlags", value: "itemflags" },
         { name: "FlagsExtra", value: "flagsextra" },
         { name: "BagFamily", value: "bagfamily" },
+        { name: "FlagsCustom", value: "flagscustom" },
     ],
     other: [
     ],

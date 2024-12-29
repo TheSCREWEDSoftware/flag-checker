@@ -32,6 +32,15 @@ const flagCategories = {
         { name: "GameObjectFlags", value: "gameobjectflags" },
         { name: "GameObjectDynamicLowFlags", value: "gameobjectdynamiclowflags" }
     ],
+    quest: [
+        { name: "QuestFlags", value: "questflags" },
+        { name: "SpecialFlags", value: "specialflags" }
+    ],
+    item: [
+        { name: "ItemFlags", value: "itemflags" },
+        { name: "FlagsExtra", value: "flagsextra" },
+        { name: "BagFamily", value: "bagfamily" },
+    ],
     other: [
     ],
 }

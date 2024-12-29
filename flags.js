@@ -2,6 +2,8 @@ const flags = {
     npcflag: [
         { bit: 1, name: "Gossip" },
         { bit: 2, name: "Quest Giver" },
+        { bit: 4, name: "UNK1" },
+        { bit: 8, name: "UNK2" },
         { bit: 16, name: "Trainer" },
         { bit: 32, name: "Class Trainer" },
         { bit: 64, name: "Profession Trainer" },

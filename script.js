@@ -52,6 +52,9 @@ function checkFlags() {
         const removeFlag = `&~(${flagNames.join('|')})`
 
         // Display the formatted flags
+        const flagHeader = document.createElement('h4');
+        flagHeader.textContent = 'Add/Remove the listed flags';
+        combinedList.appendChild(flagHeader);
         const flagStringElement = document.createElement('li');
         flagStringElement.textContent = `\`${selectedCategory}\`=\`${selectedCategory}\`${addFlag}`;
         combinedList.appendChild(flagStringElement);

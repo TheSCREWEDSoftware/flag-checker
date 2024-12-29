@@ -20,12 +20,22 @@ h1, label, h4 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 500px;
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.output, .addremove {
+    text-align: center;
+    background-color: #282828;
+    padding: 5px;
+    border-radius: 10px;
+    width: 450px;
     overflow: auto;
 }
 
 select {
     background-color: #3f3f3f;
-    color: #8b8b8b;
+    color: whitesmoke;
     padding: 10px;
     width: 75%;
     margin: 10px 0;
@@ -35,7 +45,7 @@ select {
 
 input {
     background-color: #3f3f3f;
-    color: #8b8b8b;
+    color: whitesmoke;
     padding: 10px;
     width: 71%;
     margin: 10px 0;

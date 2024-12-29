@@ -520,5 +520,34 @@ const flags = {
         { bit: 536870912, name: "SPELL_ATTR7_REFLECTION_ONLY_DEFENDS" },
         { bit: 1073741824, name: "SPELL_ATTR7_CAN_PROC_FROM_SUPPRESSED_TARGET_PROCS" },
         { bit: 2147483648, name: "SPELL_ATTR7_ALWAYS_CAST_LOG" }
-    ],                        
+    ],
+    gameobjectflags: [
+        { bit: 1, name: "GO_FLAG_IN_USE" },
+        { bit: 2, name: "GO_FLAG_LOCKED" },
+        { bit: 4, name: "GO_FLAG_INTERACT_COND" },
+        { bit: 8, name: "GO_FLAG_TRANSPORT" },
+        { bit: 16, name: "GO_FLAG_NOT_SELECTABLE" },
+        { bit: 32, name: "GO_FLAG_NODESPAWN" },
+        { bit: 64, name: "GO_FLAG_TRIGGERED" },
+        { bit: 512, name: "GO_FLAG_DAMAGED" },
+        { bit: 1024, name: "GO_FLAG_DESTROYED" }
+    ],
+    gameobjectdynamiclowflags: [
+        { bit: 1, name: "GO_DYNFLAG_LO_ACTIVATE" },
+        { bit: 2, name: "GO_DYNFLAG_LO_ANIMATE" },
+        { bit: 4, name: "GO_DYNFLAG_LO_NO_INTERACT" },
+        { bit: 8, name: "GO_DYNFLAG_LO_SPARKLE" },
+        { bit: 16, name: "GO_DYNFLAG_LO_STOPPED" }
+    ],
+    unitdynflags: [
+        { bit: 0, name: "UNIT_DYNFLAG_NONE" },
+        { bit: 1, name: "UNIT_DYNFLAG_LOOTABLE" },
+        { bit: 2, name: "UNIT_DYNFLAG_TRACK_UNIT" },
+        { bit: 4, name: "UNIT_DYNFLAG_TAPPED" },
+        { bit: 8, name: "UNIT_DYNFLAG_TAPPED_BY_PLAYER" },
+        { bit: 16, name: "UNIT_DYNFLAG_SPECIALINFO" },
+        { bit: 32, name: "UNIT_DYNFLAG_DEAD" },
+        { bit: 64, name: "UNIT_DYNFLAG_REFER_A_FRIEND" },
+        { bit: 128, name: "UNIT_DYNFLAG_TAPPED_BY_ALL_THREAT_LIST" }
+    ],
 };
